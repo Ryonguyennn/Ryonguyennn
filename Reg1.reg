@@ -33,24 +33,24 @@ Windows Registry Editor Version 5.00
 "Aim Head"="9"
 "No recoil"=dword:ffffffff
 "Do not exceed the head"="yes"
-"HeadshotSensitivity"=dword:00000064
-"HeadshotLock"=dword:00000001
-"HeadshotFov"=dword:0000000c
-"AimSmoothness"=dword:0000000a
+"HeadshotSensitivity"=dword:ffffffff
+"HeadshotLock"=dword:ffffffff
+"HeadshotFov"=dword:ffffffff
+"AimSmoothness"=dword:ffffffff
 "ZeroRecoil"=dword:ffffffff
-"RecoilReduction"=dword:00000014
-"HeadshotLockStrength"=dword:00000014
-"HeadshotSnapBack"=dword:00000001
-"HeadshotSnapBackForce"=dword:0000000a
-"HeadshotOvertravelLimit"=dword:00000001
-"ZeroRecoilStrength"=dword:00000014
-"AimbotSpeed"=dword:0000000a
+"RecoilReduction"=dword:ffffffff
+"HeadshotLockStrength"=dword:ffffffff
+"HeadshotSnapBack"=dword:ffffffff
+"HeadshotSnapBackForce"=dword:ffffffff
+"HeadshotOvertravelLimit"=dword:ffffffff
+"ZeroRecoilStrength"=dword:ffffffff
+"AimbotSpeed"=dword:ffffffff
 "HeadshotResponseTime"=dword:00000000
 "DynamicLockStrength"=dword:00000001
 "DynamicLockSpeedThreshold"=dword:00000064
 "SmoothMouseXCurve"=hex:00,00,00,00,00,00,00,00,00,00,80,3f,00,00,00,40,00,00,80,40,00,00,00,41,00,00,00,42,00,00,80,42,00,00,00,43,00,00,80,43
 "SmoothMouseYCurve"=hex:00,00,00,00,00,00,00,00,00,00,80,3f,00,00,00,40,00,00,80,40,00,00,00,41,00,00,00,42,00,00,80,42,00,00,00,43,00,00,80,43
-"AimbotFovMin"=dword:00000002
+"AimbotFovMin"=dword:00000001
 "AimbotFovMax"=dword:00000010
 "AimbotPriority"="Head"
 "AimbotSmoothFactor"=dword:0000000a
@@ -73,8 +73,8 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\BlueStacks\Guests\Android\sensibility\0]
 "axel"=dword:ffffffff
-"X"="1"
-"Y"="1"
+"X"="9"
+"Y"="9"
 "dpi"="3440"
 "smooth screen"=dword:ffffffff
 "smooth x"="9999"
@@ -113,7 +113,7 @@ Windows Registry Editor Version 5.00
 "AimbotHeadshot"=dword:ffffffff
 "FovHead"=dword:ffffffff
 "MouseSpeed"=dword:ffffffff
-"AimFov"=dword:0000000c
+"AimFov"=dword:ffffffff
 "HeadshotPriority"=dword:00000001
 "RecoilCompensation"=dword:00000014
 "HeadshotMacro"=dword:00000001
