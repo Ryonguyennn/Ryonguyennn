@@ -54,7 +54,7 @@ Windows Registry Editor Version 5.00
 "AimbotFovMax"=dword:00000010
 "AimbotPriority"="Head"
 "AimbotSmoothFactor"=dword:0000000a
-"AimbotTriggerKey"="0x01"
+"AimbotTriggerKey"="9"
 "AutoFire"="yes"
 "AutoFireDelay"=dword:0000000a
 "SilentAim"="yes"
@@ -92,7 +92,7 @@ Windows Registry Editor Version 5.00
 "generalemulatorsensitivity"=dword:ffffffff
 "joystick"=dword:ffffffff
 "LEFTCLICK"=dword:ffffffff
-"AimBot"=dword:00000001
+"AimBot"=dword:00000009
 "AimbotHeadLetf"=dword:ffffffff
 "startactivy"=dword:ffffffff
 "AimbotHeadshot"=dword:ffffffff
@@ -114,7 +114,7 @@ Windows Registry Editor Version 5.00
 "FovHead"=dword:ffffffff
 "MouseSpeed"=dword:ffffffff
 "AimFov"=dword:ffffffff
-"HeadshotPriority"=dword:00000001
+"HeadshotPriority"=dword:ffffffff
 "RecoilCompensation"=dword:00000014
 "HeadshotMacro"=dword:00000001
 "GeneralSensitivity"=dword:00000064
@@ -125,11 +125,11 @@ Windows Registry Editor Version 5.00
 "FreeLookSensitivity"=dword:0000004b
 "HighPrecisionMode"=dword:00000001
 "ZeroRecoil"=dword:00000001
-"RecoilReduction"=dword:00000014
-"NoRecoilMacro"=dword:00000001
-"HeadshotLockStrength"=dword:00000014
+"RecoilReduction"=dword: ffffffff
+"NoRecoilMacro"=dword: ffffffff
+"HeadshotLockStrength"=dword: ffffffff
 "HeadshotFovMin"=dword:00000002
-"HeadshotFovMax"=dword:00000010
+"HeadshotFovMax"=dword:ffffffff
 "HeadshotMacroSpeed"=dword:0000000a
 "HeadshotMacroOffset"=dword:00000002
 "HeadshotMacroCorrection"=dword:00000001
