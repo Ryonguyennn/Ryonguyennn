@@ -22,10 +22,10 @@ Windows Registry Editor Version 5.00
 "MouseTrails"="0"
 "Aim assist"="yes"
 "Aim assist2"="yes"
-"Aim Lock"=dword:ffffffff
+"Aim Lock"=dword:00000001
 "Aim Lock2"="yes"
-"Lock firmly at the head"=dword:ffffffff
-"AimBot"=dword:ffffffff
+"Lock firmly at the head"=dword:00000001
+"AimBot"=dword:00000001
 "AimbotHeadshot"="yes"
 "AimbotHeadshot2"="yes"
 "AimHead2"="yes"
@@ -110,7 +110,7 @@ Windows Registry Editor Version 5.00
 "Fov"="12"
 "Active"="RTX 3060TI"
 "Headshot"=dword:ffffffff
-"AimLock2"=dword:ffffffff
+"AimLock2"=dword:00000001
 "AutoHeadshot"=dword:ffffffff
 "FovAutoHeadshot"=dword:ffffffff
 "AimHeadshot"=dword:ffffffff
