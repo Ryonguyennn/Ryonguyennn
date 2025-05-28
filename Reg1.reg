@@ -31,12 +31,12 @@ Windows Registry Editor Version 5.00
 "AimHead2"="yes"
 "Mouse Lock"=dword:00000001
 "Mouse LockX"=dword:00000001
-"Mouse LockX2"=dword:ffffffff
+"Mouse LockX2"=dword:00000001
 "Mouse LockY"=dword:00000001
-"Mouse LockY2"=dword:ffffffff
+"Mouse LockY2"=dword:00000001
 "Aim Bot2"="yes"
 "Aim Head"="9"
-"No recoil"=dword:ffffffff
+"No recoil"=dword:00000001
 "Do not exceed the head"="yes"
 "HeadshotSensitivity"=dword:ffffffff
 "HeadshotLock"=dword:00000001
@@ -44,7 +44,7 @@ Windows Registry Editor Version 5.00
 "AimSmoothness"=dword:ffffffff
 "ZeroRecoil"=dword:ffffffff
 "RecoilReduction"=dword:ffffffff
-"HeadshotLockStrength"=dword:ffffffff
+"HeadshotLockStrength"=dword:00000001
 "HeadshotSnapBack"=dword:ffffffff
 "HeadshotSnapBackForce"=dword:ffffffff
 "HeadshotOvertravelLimit"=dword:ffffffff
@@ -134,7 +134,7 @@ Windows Registry Editor Version 5.00
 "ZeroRecoil"=dword:00000001
 "RecoilReduction"=dword:ffffffff
 "NoRecoilMacro"=dword:ffffffff
-"HeadshotLockStrength"=dword:ffffffff
+"HeadshotLockStrength"=dword:00000001
 "HeadshotFovMin"=dword:00000002
 "HeadshotFovMax"=dword:ffffffff
 "HeadshotMacroSpeed"=dword:0000000a
