@@ -16,9 +16,9 @@ Windows Registry Editor Version 5.00
 "MouseHoverTime"="0"
 "MouseHoverWidth"="4"
 "MouseSensitivity"="20"
-"MouseSpeed"="1"
-"MouseThreshold1"="4"
-"MouseThreshold2"="8"
+"MouseSpeed"=dword:00000002
+"MouseThreshold1"=dword:00000000
+"MouseThreshold2"=dword:00000000
 "MouseTrails"="0"
 "Aim assist"="yes"
 "Aim assist2"="yes"
@@ -29,17 +29,17 @@ Windows Registry Editor Version 5.00
 "AimbotHeadshot"="yes"
 "AimbotHeadshot2"="yes"
 "AimHead2"="yes"
-"Mouse Lock"=dword:ffffffff
-"Mouse LockX"=dword:ffffffff
+"Mouse Lock"=dword:00000001
+"Mouse LockX"=dword:00000001
 "Mouse LockX2"=dword:ffffffff
-"Mouse LockY"=dword:ffffffff
+"Mouse LockY"=dword:00000001
 "Mouse LockY2"=dword:ffffffff
 "Aim Bot2"="yes"
 "Aim Head"="9"
 "No recoil"=dword:ffffffff
 "Do not exceed the head"="yes"
 "HeadshotSensitivity"=dword:ffffffff
-"HeadshotLock"=dword:ffffffff
+"HeadshotLock"=dword:00000001
 "HeadshotFov"=dword:ffffffff
 "AimSmoothness"=dword:ffffffff
 "ZeroRecoil"=dword:ffffffff
@@ -53,8 +53,10 @@ Windows Registry Editor Version 5.00
 "HeadshotResponseTime"=dword:00000000
 "DynamicLockStrength"=dword:00000001
 "DynamicLockSpeedThreshold"=dword:ffffffff
-"SmoothMouseXCurve"=hex:00,00,00,00,00,00,00,00,00,00,80,3f,00,00,00,40,00,00,80,40,00,00,00,41,00,00,00,42,00,00,80,42,00,00,00,43,00,00,80,43
-"SmoothMouseYCurve"=hex:00,00,00,00,00,00,00,00,00,00,80,3f,00,00,00,40,00,00,80,40,00,00,00,41,00,00,00,42,00,00,80,42,00,00,00,43,00,00,80,43
+"SmoothMouseXCurve"=hex:00,00,00,00,00,00,00,00,00,00,80,3f,00,00,00,40,00,00,40,\
+  40,00,00,c0,40,00,00,20,41,00,00,80,41,00,00,a0,41,00,00,c0,41
+"SmoothMouseYCurve"=hex:00,00,00,00,00,00,00,00,00,00,80,3f,00,00,00,40,00,00,40,\
+  40,00,00,c0,40,00,00,20,41,00,00,80,41,00,00,a0,41,00,00,c0,41
 "AimbotFovMin"=dword:00000001
 "AimbotFovMax"=dword:00000100
 "AimbotPriority"="Head"
@@ -91,7 +93,7 @@ Windows Registry Editor Version 5.00
 "sensitive"=dword:ffffffff
 "HoverTime"=dword:00000000
 "fix delay"=dword:00000001
-"aimLockEnabled"=dword:ffffffff
+"aimLockEnabled"=dword:00000001
 "AimAssist"=dword:00000001
 "AimAssistLow"=dword:ffffffff
 "generalemulatorsensitivity"=dword:ffffffff
@@ -100,7 +102,7 @@ Windows Registry Editor Version 5.00
 "AimBot"=dword:00000001
 "AimbotHeadLetf"=dword:ffffffff
 "startactivy"=dword:ffffffff
-"AimbotHeadshot"=dword:ffffffff
+"AimbotHeadshot"=dword:00000001
 "AimbotSpeed"=dword:ffffffff
 "AimHead"=dword:ffffffff
 "AimHeadRight"=dword:ffffffff
