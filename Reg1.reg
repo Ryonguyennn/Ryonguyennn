@@ -117,7 +117,7 @@ Windows Registry Editor Version 5.00
 "FovAutoHeadshot"=dword:ffffffff
 "AimHeadshot"=dword:ffffffff
 "AimHeadRightClickLifter"=dword:ffffffff
-"AimbotHeadshot"=dword:ffffffff
+"AimbotHeadshot"=dword:00000001
 "FovHead"=dword:ffffffff
 "MouseSpeed"=dword:ffffffff
 "AimFov"=dword:ffffffff
@@ -153,7 +153,7 @@ Windows Registry Editor Version 5.00
 "HeadshotResponseTime"=dword:00000000
 "DynamicLockStrength"=dword:00000001
 "DynamicLockSpeedThreshold"=dword:00000064
-"AimbotFovAdjust"=dword:00000001
+"AimbotFovAdjust"=dword:ffffffff
 "AimbotBoneSwitch"="yes"
 "AimbotBoneSwitchDelay"=dword:0000000a
 "TriggerBot"="yes"
