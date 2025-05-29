@@ -25,7 +25,7 @@ Windows Registry Editor Version 5.00
 "Aim Lock"=dword:00000001
 "Aim Lock2"="yes"
 "Lock firmly at the head"=dword:00000001
-"AimBot"=dword:00000001
+"AimBot"=dword:00000002
 "AimbotHeadshot"="yes"
 "AimbotHeadshot2"="yes"
 "AimHead2"="yes"
@@ -99,7 +99,7 @@ Windows Registry Editor Version 5.00
 "generalemulatorsensitivity"=dword:ffffffff
 "joystick"=dword:ffffffff
 "LEFTCLICK"=dword:ffffffff
-"AimBot"=dword:00000001
+"AimBot"=dword:00000002
 "AimbotHeadLetf"=dword:ffffffff
 "startactivy"=dword:ffffffff
 "AimbotHeadshot"=dword:00000001
